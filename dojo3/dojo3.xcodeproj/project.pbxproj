@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C503A1EC19A3661F00EB2DDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1EB19A3661F00EB2DDC /* main.swift */; };
+		C503A1F319A3667300EB2DDC /* ceo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1F219A3667300EB2DDC /* ceo.swift */; };
+		C503A1F519A3671300EB2DDC /* ceo_sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1F419A3671300EB2DDC /* ceo_sol.swift */; };
+		C503A1F719A368FF00EB2DDC /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1F619A368FF00EB2DDC /* tableView.swift */; };
+		C503A1F919A36C7A00EB2DDC /* tableView_sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1F819A36C7A00EB2DDC /* tableView_sol.swift */; };
+		C503A1FB19A36CE100EB2DDC /* union.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1FA19A36CE100EB2DDC /* union.swift */; };
+		C503A1FF19A370A300EB2DDC /* optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A1FE19A370A300EB2DDC /* optional.swift */; };
+		C503A20119A371F400EB2DDC /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A20019A371F400EB2DDC /* card.swift */; };
+		C5C8383519A4B5CB0002A3A3 /* optional_sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8383419A4B5CB0002A3A3 /* optional_sol.swift */; };
+		C5C8383719A4B6A60002A3A3 /* union_sol_.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8383619A4B6A60002A3A3 /* union_sol_.swift */; };
+		C5C8383919A4BAA40002A3A3 /* list_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8383819A4BAA40002A3A3 /* list_ext.swift */; };
+		C5C8383B19A4BABF0002A3A3 /* list_ext_sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8383A19A4BABF0002A3A3 /* list_ext_sol.swift */; };
+		C5D3FB0A19A4B18800B331ED /* card_sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3FB0919A4B18800B331ED /* card_sol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C503A1E619A3661F00EB2DDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C503A1E819A3661F00EB2DDC /* dojo3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dojo3; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503A1EB19A3661F00EB2DDC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C503A1F219A3667300EB2DDC /* ceo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ceo.swift; sourceTree = "<group>"; };
+		C503A1F419A3671300EB2DDC /* ceo_sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ceo_sol.swift; sourceTree = "<group>"; };
+		C503A1F619A368FF00EB2DDC /* tableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableView.swift; sourceTree = "<group>"; };
+		C503A1F819A36C7A00EB2DDC /* tableView_sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableView_sol.swift; sourceTree = "<group>"; };
+		C503A1FA19A36CE100EB2DDC /* union.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = union.swift; sourceTree = "<group>"; };
+		C503A1FE19A370A300EB2DDC /* optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optional.swift; sourceTree = "<group>"; };
+		C503A20019A371F400EB2DDC /* card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		C5C8383419A4B5CB0002A3A3 /* optional_sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optional_sol.swift; sourceTree = "<group>"; };
+		C5C8383619A4B6A60002A3A3 /* union_sol_.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = union_sol_.swift; sourceTree = "<group>"; };
+		C5C8383819A4BAA40002A3A3 /* list_ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = list_ext.swift; sourceTree = "<group>"; };
+		C5C8383A19A4BABF0002A3A3 /* list_ext_sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = list_ext_sol.swift; sourceTree = "<group>"; };
+		C5D3FB0919A4B18800B331ED /* card_sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = card_sol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C503A1E519A3661F00EB2DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C503A1DF19A3661F00EB2DDC = {
+			isa = PBXGroup;
+			children = (
+				C503A1EA19A3661F00EB2DDC /* dojo3 */,
+				C503A1E919A3661F00EB2DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C503A1E919A3661F00EB2DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C503A1E819A3661F00EB2DDC /* dojo3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C503A1EA19A3661F00EB2DDC /* dojo3 */ = {
+			isa = PBXGroup;
+			children = (
+				C503A1EB19A3661F00EB2DDC /* main.swift */,
+				C503A1F619A368FF00EB2DDC /* tableView.swift */,
+				C503A1F819A36C7A00EB2DDC /* tableView_sol.swift */,
+				C503A1F219A3667300EB2DDC /* ceo.swift */,
+				C503A1F419A3671300EB2DDC /* ceo_sol.swift */,
+				C503A1FA19A36CE100EB2DDC /* union.swift */,
+				C5C8383619A4B6A60002A3A3 /* union_sol_.swift */,
+				C5C8383819A4BAA40002A3A3 /* list_ext.swift */,
+				C5C8383A19A4BABF0002A3A3 /* list_ext_sol.swift */,
+				C503A1FE19A370A300EB2DDC /* optional.swift */,
+				C5C8383419A4B5CB0002A3A3 /* optional_sol.swift */,
+				C503A20019A371F400EB2DDC /* card.swift */,
+				C5D3FB0919A4B18800B331ED /* card_sol.swift */,
+			);
+			path = dojo3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C503A1E719A3661F00EB2DDC /* dojo3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503A1EF19A3661F00EB2DDC /* Build configuration list for PBXNativeTarget "dojo3" */;
+			buildPhases = (
+				C503A1E419A3661F00EB2DDC /* Sources */,
+				C503A1E519A3661F00EB2DDC /* Frameworks */,
+				C503A1E619A3661F00EB2DDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dojo3;
+			productName = dojo3;
+			productReference = C503A1E819A3661F00EB2DDC /* dojo3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C503A1E019A3661F00EB2DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Young Hoo Kim";
+				TargetAttributes = {
+					C503A1E719A3661F00EB2DDC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = C503A1E319A3661F00EB2DDC /* Build configuration list for PBXProject "dojo3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C503A1DF19A3661F00EB2DDC;
+			productRefGroup = C503A1E919A3661F00EB2DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C503A1E719A3661F00EB2DDC /* dojo3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C503A1E419A3661F00EB2DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C8383519A4B5CB0002A3A3 /* optional_sol.swift in Sources */,
+				C503A1F519A3671300EB2DDC /* ceo_sol.swift in Sources */,
+				C5D3FB0A19A4B18800B331ED /* card_sol.swift in Sources */,
+				C503A1F919A36C7A00EB2DDC /* tableView_sol.swift in Sources */,
+				C503A1F719A368FF00EB2DDC /* tableView.swift in Sources */,
+				C5C8383919A4BAA40002A3A3 /* list_ext.swift in Sources */,
+				C503A1EC19A3661F00EB2DDC /* main.swift in Sources */,
+				C5C8383719A4B6A60002A3A3 /* union_sol_.swift in Sources */,
+				C503A1FF19A370A300EB2DDC /* optional.swift in Sources */,
+				C503A1F319A3667300EB2DDC /* ceo.swift in Sources */,
+				C5C8383B19A4BABF0002A3A3 /* list_ext_sol.swift in Sources */,
+				C503A1FB19A36CE100EB2DDC /* union.swift in Sources */,
+				C503A20119A371F400EB2DDC /* card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C503A1ED19A3661F00EB2DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C503A1EE19A3661F00EB2DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C503A1F019A3661F00EB2DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C503A1F119A3661F00EB2DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C503A1E319A3661F00EB2DDC /* Build configuration list for PBXProject "dojo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503A1ED19A3661F00EB2DDC /* Debug */,
+				C503A1EE19A3661F00EB2DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C503A1EF19A3661F00EB2DDC /* Build configuration list for PBXNativeTarget "dojo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503A1F019A3661F00EB2DDC /* Debug */,
+				C503A1F119A3661F00EB2DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C503A1E019A3661F00EB2DDC /* Project object */;
+}
