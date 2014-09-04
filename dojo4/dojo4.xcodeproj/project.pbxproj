@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54C4D0919B71BC7004BD2F5 /* leveltracker-sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C4D0819B71BC7004BD2F5 /* leveltracker-sol.swift */; };
+		C56AE8E819B714CD006EEDA4 /* roman-sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56AE8E719B714CD006EEDA4 /* roman-sol.swift */; };
+		C56AE8EA19B7158D006EEDA4 /* food-sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56AE8E919B7158D006EEDA4 /* food-sol.swift */; };
+		C56FD1F019B57F9C0016F668 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FD1EF19B57F9C0016F668 /* main.swift */; };
+		C56FD1F719B587A80016F668 /* leveltracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FD1F619B587A80016F668 /* leveltracker.swift */; };
+		C578D03B19B5DBF800F70717 /* roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = C578D03A19B5DBF800F70717 /* roman.swift */; };
+		C578D03D19B5EFB600F70717 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C578D03C19B5EFB600F70717 /* food.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C56FD1EA19B57F9C0016F668 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C54C4D0819B71BC7004BD2F5 /* leveltracker-sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "leveltracker-sol.swift"; sourceTree = "<group>"; };
+		C56AE8E719B714CD006EEDA4 /* roman-sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "roman-sol.swift"; sourceTree = "<group>"; };
+		C56AE8E919B7158D006EEDA4 /* food-sol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "food-sol.swift"; sourceTree = "<group>"; };
+		C56FD1EC19B57F9C0016F668 /* dojo4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dojo4; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56FD1EF19B57F9C0016F668 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C56FD1F619B587A80016F668 /* leveltracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leveltracker.swift; sourceTree = "<group>"; };
+		C578D03A19B5DBF800F70717 /* roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roman.swift; sourceTree = "<group>"; };
+		C578D03C19B5EFB600F70717 /* food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56FD1E919B57F9C0016F668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56FD1E319B57F9C0016F668 = {
+			isa = PBXGroup;
+			children = (
+				C56FD1EE19B57F9C0016F668 /* dojo4 */,
+				C56FD1ED19B57F9C0016F668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56FD1ED19B57F9C0016F668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56FD1EC19B57F9C0016F668 /* dojo4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56FD1EE19B57F9C0016F668 /* dojo4 */ = {
+			isa = PBXGroup;
+			children = (
+				C56FD1EF19B57F9C0016F668 /* main.swift */,
+				C56FD1F619B587A80016F668 /* leveltracker.swift */,
+				C54C4D0819B71BC7004BD2F5 /* leveltracker-sol.swift */,
+				C578D03A19B5DBF800F70717 /* roman.swift */,
+				C56AE8E719B714CD006EEDA4 /* roman-sol.swift */,
+				C578D03C19B5EFB600F70717 /* food.swift */,
+				C56AE8E919B7158D006EEDA4 /* food-sol.swift */,
+			);
+			path = dojo4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56FD1EB19B57F9C0016F668 /* dojo4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56FD1F319B57F9C0016F668 /* Build configuration list for PBXNativeTarget "dojo4" */;
+			buildPhases = (
+				C56FD1E819B57F9C0016F668 /* Sources */,
+				C56FD1E919B57F9C0016F668 /* Frameworks */,
+				C56FD1EA19B57F9C0016F668 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dojo4;
+			productName = dojo4;
+			productReference = C56FD1EC19B57F9C0016F668 /* dojo4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56FD1E419B57F9C0016F668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Young Hoo Kim";
+				TargetAttributes = {
+					C56FD1EB19B57F9C0016F668 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = C56FD1E719B57F9C0016F668 /* Build configuration list for PBXProject "dojo4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C56FD1E319B57F9C0016F668;
+			productRefGroup = C56FD1ED19B57F9C0016F668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56FD1EB19B57F9C0016F668 /* dojo4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56FD1E819B57F9C0016F668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C4D0919B71BC7004BD2F5 /* leveltracker-sol.swift in Sources */,
+				C56AE8EA19B7158D006EEDA4 /* food-sol.swift in Sources */,
+				C578D03B19B5DBF800F70717 /* roman.swift in Sources */,
+				C578D03D19B5EFB600F70717 /* food.swift in Sources */,
+				C56FD1F019B57F9C0016F668 /* main.swift in Sources */,
+				C56FD1F719B587A80016F668 /* leveltracker.swift in Sources */,
+				C56AE8E819B714CD006EEDA4 /* roman-sol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C56FD1F119B57F9C0016F668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C56FD1F219B57F9C0016F668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C56FD1F419B57F9C0016F668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C56FD1F519B57F9C0016F668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56FD1E719B57F9C0016F668 /* Build configuration list for PBXProject "dojo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FD1F119B57F9C0016F668 /* Debug */,
+				C56FD1F219B57F9C0016F668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56FD1F319B57F9C0016F668 /* Build configuration list for PBXNativeTarget "dojo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FD1F419B57F9C0016F668 /* Debug */,
+				C56FD1F519B57F9C0016F668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56FD1E419B57F9C0016F668 /* Project object */;
+}
